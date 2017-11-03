@@ -107,6 +107,7 @@
     <Compile Include="Activation\ActivationHandler.cs" />
     <Compile Include="Helpers\Observable.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="Helpers\StorageFileHelper.cs" />
     <Compile Include="Models\CustomItem.cs" />
     <Compile Include="Services\ActivationService.cs" />
     <Compile Include="Activation\DefaultLaunchActivationHandler.cs" />
@@ -118,6 +119,8 @@
     <Compile Include="ViewModels\Scenario3ViewModel.cs" />
     <Compile Include="ViewModels\PivotViewModel.cs" />
     <Compile Include="ViewModels\Scenario4ViewModel.cs" />
+    <Compile Include="ViewModels\Scenario5ViewModel.cs" />
+    <Compile Include="ViewModels\Scenario6ViewModel.cs" />
     <Compile Include="Views\Scenario1Page.xaml.cs">
       <DependentUpon>Scenario1Page.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,12 @@
     </Compile>
     <Compile Include="Views\Scenario4Page.xaml.cs">
       <DependentUpon>Scenario4Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Scenario5Page.xaml.cs">
+      <DependentUpon>Scenario5Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Scenario6Page.xaml.cs">
+      <DependentUpon>Scenario6Page.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +191,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Scenario4Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Scenario5Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Scenario6Page.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

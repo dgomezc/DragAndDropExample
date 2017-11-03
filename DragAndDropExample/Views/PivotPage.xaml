@@ -30,6 +30,16 @@
                     <views:Scenario4Page/>
                 </Frame>
             </PivotItem>
+            <PivotItem x:Uid="PivotItem_Scenario5">
+                <Frame>
+                    <views:Scenario5Page/>
+                </Frame>
+            </PivotItem>
+            <PivotItem x:Uid="PivotItem_Scenario6">
+                <Frame>
+                    <views:Scenario6Page/>
+                </Frame>
+            </PivotItem>
         </Pivot>
     </Grid>
 </Page>
